@@ -1,0 +1,29 @@
+{
+  "name": "asicronismo-javascript",
+  "version": "1.0.0",
+  "description": "entiendiendo asicronismo",
+  "main": "index.js",
+  "scripts": {
+    "callback": "node src/callback/challenge.js",
+    "callback:challenge": "node src/callback/challenge.js",
+    "promise": "node src/promise/index.js",
+    "promise:challenge": "node src/promise/challenge.js",
+    "async": "node src/async/index.js",
+    "async:challenge": "node src/async/challenge.js",
+    "deploy": "gh-pages -d src/assets -b main"
+  },
+  "author": "Doniel Acosta",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "^10.4.16",
+    "node-fetch": "^3.3.2",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.3.6",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "type": "module",
+  "keywords": [],
+  "devDependencies": {
+    "gh-pages": "^6.1.0"
+  }
+}
